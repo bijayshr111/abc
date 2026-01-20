@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Portfolio Website - Kishan Khatiwada</title>
+    <meta
+      name="description"
+      content="I am a Web Developer. Contact for web creation."
+    />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Quicksand:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="global.css" />
+    <link rel="stylesheet" href="hero.css" />
+    <link rel="stylesheet" href="common.css" />
+    <link rel="stylesheet" href="skill.css" />
+    <link rel="stylesheet" href="about.css" />
+    <link rel="stylesheet" href="sidebar.css" />
+  </head>
+  <body>
+    <nav class="sidebar">
+      <i id="hamburger" class="fa-solid fa-bars sidebar-hamburger"></i>
+      <div class="sidebar-content">
+        <ul class="sidebar-list">
+          <li> <a href="#hero"> home </a></li>
+          <li> <a href="#skills"> skills </a></li>
+        </ul>
+      </div>
+    </nav>
+    <section id="hero">
+      <h1>
+        Hi <br />I am <b><i> bijay  </i></b> <br />
+        I am a Web Developer.
+      </h1>
+      <p>Electronics and Computer Engineer</p>
+      <button>
+        <span>contact me </span><i class="fa-regular fa-envelope"></i>
+      </button>
+    </section>
+    <section id="about" class="section">
+      <p class="section_title">My Specility</p>
+      <p class="section_subtitle">My skills</p>
+      <p class="about_description">
+        <span>Hi, I am Bidhur.</span>Lorem, ipsum dolor sit amet consectetur
+        adipisicing elit. Consectetur necessitatibus id ad similique natus sit
+        vitae atque, velit sint ullam adipisci voluptates odio, quidem fuga
+        veniam explicabo ratione, quae iusto nostrum. Fuga asperiores quam dolor
+        necessitatibus mollitia nostrum minima neque modi deleniti. Accusantium
+        sit minima velit. Aliquid officia voluptatibus voluptates rem sunt alias
+        voluptatum sed corrupti enim natus minus possimus, ea a ab, in aliquam
+        recusandae ipsam at veritatis ipsa iste porro exercitationem libero
+        necessitatibus. Quod quaerat deleniti corrupti quidem eaque in obcaecati
+        natus quibusdam pariatur, cupiditate quis ducimus! Iste perspiciatis
+        pariatur doloremque vel! Aperiam, eum veritatis. Officiis?
+      </p>
+      <div class="about_skill">
+        <div class="about_skill_box">
+          <i class="fa-solid fa-ear-listen"></i>
+          <h3>Graphic design</h3>
+        </div>
+        <div class="about_skill_box">
+          <i class="fa-solid fa-globe"></i>
+          <h3>Web design</h3>
+        </div>
+        <div class="about_skill_box">
+          <i class="fa-solid fa-database"></i>
+          <h3>Software</h3>
+        </div>
+        <div class="about_skill_box">
+          <i class="fa-solid fa-mobile"></i>
+          <h3>Application</h3>
+        </div>
+      </div>
+    </section>
+    <section id="skills" class="section">
+      <p class="section_title">About Me</p>
+      <p class="section_subtitle">Who am I</p>
+      <div class="all-skills">
+        <div class="skill">
+          <p>Html5</p>
+          <div class="skill_bg_box">
+            <div class="skill_percentage_box">
+              <span>80%</span>
+            </div>
+          </div>
+        </div>
+        <div class="skill">
+          <p>css3</p>
+          <div class="skill_bg_box">
+            <div
+              class="skill_percentage_box"
+              style="background: red; color: red; width: 70%"
+            >
+              <span>70%</span>
+            </div>
+          </div>
+        </div>
+        <div class="skill">
+          <p>javascript</p>
+          <div class="skill_bg_box">
+            <div
+              class="skill_percentage_box"
+              style="background: green; color: green; width: 40%"
+            >
+              <span>40%</span>
+            </div>
+          </div>
+        </div>
+        <div class="skill">
+          <p>Html5</p>
+          <div class="skill_bg_box">
+            <div class="skill_percentage_box">
+              <span>80%</span>
+            </div>
+          </div>
+        </div>
+        <div class="skill">
+          <p>css3</p>
+          <div class="skill_bg_box">
+            <div
+              class="skill_percentage_box"
+              style="background: red; color: red; width: 70%"
+            >
+              <span>70%</span>
+            </div>
+          </div>
+        </div>
+        <div class="skill">
+          <p>javascript</p>
+          <div class="skill_bg_box">
+            <div
+              class="skill_percentage_box"
+              style="background: green; color: green; width: 40%"
+            >
+              <span>40%</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script>
+      const hamburger = document.querySelector("#hamburger");
+
+      hamburger.addEventListener("click", () => {
+      hamburger.classlist.toggle("sidebar-hamburger-translate");
+      });
+    </script>
+  </body>
+</html>
